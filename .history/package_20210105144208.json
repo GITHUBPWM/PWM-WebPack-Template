@@ -1,0 +1,20 @@
+{
+  "name": "pwm-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "webpack --config config/webpack.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config config/webpack.dev.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

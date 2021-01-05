@@ -1,0 +1,19 @@
+{
+  "name": "pwm-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build":"webpack --config config/webpack.dev.js",//打包命令的配置 --config表示以何种文件配置方式启动项目打包
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
