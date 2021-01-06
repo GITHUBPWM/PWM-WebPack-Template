@@ -9,15 +9,18 @@
     "style-loader": "^2.0.0"
   },
   "devDependencies": {
-    "babel-loader": "^8.2.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "raw-loader": "^4.0.2",
     "webpack": "^5.11.1",
     "webpack-cli": "^4.3.1",
-    "webpack-dev-server": "^3.11.1"
+    "webpack-dev-server": "^3.11.1",
+    "webpack-merge": "^5.7.3"
   },
   "scripts": {
-    "build": "webpack --config config/webpack.dev.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack serve --config config/webpack.dev.js --color --progress --hot --open"
+    "build": "webpack --config config/webpack.pro.js",
+    "dev": "webpack serve --config config/webpack.dev.js --color --progress --hot --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
