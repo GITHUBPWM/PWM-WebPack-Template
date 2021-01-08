@@ -3,6 +3,8 @@
 const path = require('path');        //node内置path模块，该模块主要集成文件系统路径操作API
 const {merge} = require('webpack-merge');//合并配置对象
 const baseConfig = require('./webpack.base');
+
+
 module.exports = merge(baseConfig,{
   mode: 'development',
   devServer:{  //webpack-dev-server配置（仅开发环境需要）
@@ -15,7 +17,7 @@ module.exports = merge(baseConfig,{
     historyApiFallback: true,  //开启服务器history重定向模式
   },
   plugins: [
-   
+    
   ]
 
 
